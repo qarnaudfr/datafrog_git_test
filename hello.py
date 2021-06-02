@@ -1,12 +1,17 @@
 
-def great(people):
+def greet(people):
+    printout = []
     for p in people:
-        print(f'hello {p}')
+        to_print = 'hello {}'.format(p)
+        printout.append(to_print)
+        print(to_print)
+    return printout
+
 
 if __name__ == '__main__':
 
     everybody = [
         'colin',
-	'pierre'
+        'pierre'
     ]
-    great(everybody)
+    greet(everybody)
