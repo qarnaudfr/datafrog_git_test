@@ -1,12 +1,12 @@
 
 def great(people):
     for p in people:
-        print('hello {p}')
+        print(f'hello {p}')
 
 if __name__ == '__main__':
 
     everybody = [
-        'colin'
+        'colin',
 	'pierre'
     ]
     great(everybody)
