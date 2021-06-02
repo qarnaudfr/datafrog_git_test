@@ -6,6 +6,7 @@ def great(people):
 if __name__ == '__main__':
 
     everybody = [
-        'colin'
+        'colin',
+	'pierre'
     ]
     great(everybody)
