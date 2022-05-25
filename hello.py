@@ -12,6 +12,7 @@ if __name__ == '__main__':
 
     everybody = [
         'colin',
-        'pierre'
-    ]
+        'pierre',
+        'philomene',
+            ]
     greet(everybody)
