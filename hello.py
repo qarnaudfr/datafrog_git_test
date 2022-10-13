@@ -14,5 +14,6 @@ if __name__ == '__main__':
         'colin',
         'pierre',
         'philomene',
+        'quentin',
             ]
     greet(everybody)
